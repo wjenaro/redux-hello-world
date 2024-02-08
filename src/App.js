@@ -4,11 +4,11 @@ import './style.css'; // Import CSS file
 
 export default function App() {
   // State: a counter value
-  const [counter, setCounter] = useState(0);
+  const [counter, setCounter] = useState(100);
 
   // Action: code that causes an update to the state when something happens
   const increment = () => {
-    setCounter((prevCounter) => prevCounter + 1);
+    setCounter((prevCounter) => prevCounter + 102);
   };
 
   // View: the UI definition
